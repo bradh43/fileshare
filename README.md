@@ -1,11 +1,4 @@
-# README #
-Brad Hodkinson 
-466240
-Bit: bradh43
-CSE 330
-1/21/2019
-
-### Filesharing System ###
+# Filesharing System #
 
 Simple file sharing site that supports uploading, viewing, and deleting files associated with various users. The website can be seen at the following link: http://ec2-18-219-118-115.us-east-2.compute.amazonaws.com/~bradh43/module2/fileShare/login.php?
 You can create a new account or you can use the the account name "test" to login.
