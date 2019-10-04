@@ -1,0 +1,129 @@
+@font-face {
+    font-family: space;
+    src: url("./assets/fonts/space.ttf");
+}
+@font-face {
+    font-family: sfPro;
+    src: url("./assets/fonts/SF-Pro-Display-Medium.otf");
+}
+body {
+    font-family: sfPro;
+}
+.background {
+    background-image: linear-gradient(to bottom right, rgb(10, 40, 70), rgb(100, 200, 170));
+    height: 100vh;
+    width: 100vw;
+}
+h1 {
+    font-family: space;
+    font-size: 50px;
+    color: white;
+    padding: 0px;
+    margin: 0 auto;
+}
+.title {
+    width: 370px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.logo {
+    width: 200px;
+    margin: 0 auto;
+}
+.logo img {
+    width: 200px;
+}
+.login-container {
+    width: 350px;
+    height: auto;
+    margin: auto auto;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: white;
+    border: solid rgb(10, 40, 70) 2px;
+    box-shadow: 0 0 0 8px #fff;
+    text-align: center;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    margin: 10px auto;
+    border-radius: 15px;
+    font-size: 22px;
+    background-color: rgb(10, 40, 70);
+    color: white;
+    text-align: center;
+    box-shadow: 4px 3px 3px rgba(25,25,25,0.7);
+    padding: 0px;
+    text-decoration: none;
+    outline: none;
+
+}
+.login-field {
+    width: 300px;
+    margin: 0 auto;
+}
+.login-field input:focus {
+    background-color: rgba(0, 20, 50, 0.95);
+      
+}
+.login-button {
+    width: 300px;
+    margin: 0 auto;
+}
+.login-button input {
+    height: 35px;
+}
+
+.bottom-message {
+    position: absolute;
+    overflow: hidden;
+    padding: 5px;
+    bottom: 0px;
+}
+
+.bottom-message p {
+    font-size: 14px;
+}
+.error-message{
+    color: red;
+    padding: 0px;
+    margin: 0px auto;
+
+}
+.switch {
+    margin: 0px auto;
+    padding: 10px;
+    padding-top: 5px;
+}
+
+@media screen and (max-width: 500px) {
+    .title {
+        width: 220px;
+    }
+    .logo {
+        width: 150px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .login-button {
+        width: 200px;
+    }
+    input {
+        width: 200px;
+        font-size: 20px;
+    }
+    .login-field {
+        width: 200px;
+    }
+    .logo img {
+        width: 150px;
+    }
+    
+    .login-container {
+        width: 250px;
+        padding: 5px;
+    }
+  }
